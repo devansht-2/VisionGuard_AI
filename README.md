@@ -5,7 +5,7 @@
 ---
 ## System Architecture
 
-![VisionGuard_Logo](assets/logo.jpeg)
+![VisionGuard_Logo](assets/logo_VG.jpeg)
 
 ## Project Overview
 
