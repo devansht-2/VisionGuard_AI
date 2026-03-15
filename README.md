@@ -3,7 +3,7 @@
 **Note:** The trained model files and dataset are not included in this repository due to size constraints. These components can be added locally for running and testing the system.
 
 ---
-## System Architecture
+## Logo
 
 ![VisionGuard_Logo](assets/logo_VG.jpeg)
 
