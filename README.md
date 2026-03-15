@@ -5,7 +5,7 @@
 ---
 ## System Architecture
 
-![VisionGuard AI Architecture](assets/logo.png)
+![VisionGuard_Logo](assets/logo.jpeg)
 
 ## Project Overview
 
