@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VisionGuard AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="E:\VisionGuard_AI\assets\logo_VG.jpeg" class="logo">
+
+<h1>VisionGuard AI</h1>
+
+<p class="subtitle">Upload your fundus image below</p>
+
+<div class="upload-box">
+<input type="file" id="imageUpload">
+<button onclick="analyzeImage()">Analyze Image</button>
+</div>
+
+<div id="loading" class="loading hidden">
+Analyzing Retinal Image...
+</div>
+
+</div>
+
+
+<div id="chatbot" class="chatbot hidden">
+
+<div class="chat-header">
+Virtual Eye Doctor
+</div>
+
+<div class="chat-body" id="chatBody">
+<p class="bot">Hello, I have analyzed your fundus image. Tell me what symptoms you are experiencing.</p>
+</div>
+
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
+<button>Send</button>
+</div>
+
+</div>
+
+<script>
+
+function analyzeImage(){
+
+document.getElementById("loading").classList.remove("hidden");
+
+setTimeout(()=>{
+document.getElementById("loading").innerText="Analysis Complete";
+document.getElementById("chatbot").classList.remove("hidden");
+},3000);
+
+}
+
+</script>
+
+</body>
+</html>
